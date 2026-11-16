@@ -1,10 +1,5 @@
 #include <stdio.h>  // printf
 
-// fonction qui va appartenir à une bibliothèque
-int somme(int a, int b) {
-    return a + b;
-}
-
 int main(void) {
     printf("Dans le main...\n");
     int x = 2;
@@ -13,3 +8,5 @@ int main(void) {
     printf("%d + %d = %d\n", x, y, r);
     return 0;
 }
+
+// gcc -Wall -c main.c --> main.o
