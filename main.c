@@ -1,6 +1,8 @@
 #include <stdio.h>  // printf
 
-extern int somme(int, int);
+// ce n'est pas le main qui fait les déclarations
+// extern int somme(int, int);
+#include "somme.h"
 
 int main(void) {
     printf("Dans le main...\n");
