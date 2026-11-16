@@ -1,3 +1,5 @@
+#include "serie.h"
+
 #include <stdio.h>
 
 #include "somme.h"
