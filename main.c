@@ -6,7 +6,7 @@
 #include "somme.h"  // double inclusion, qui peut claquer à la compilation
 
 int main(void) {
-    printf("Dans le main...\n");
+    printf("Dans le main, de bonne humeur...\n");
     int x = 2;
     int y = 3;
     int r = somme(x, y);

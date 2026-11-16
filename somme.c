@@ -3,7 +3,7 @@
 #include <stdio.h>  // printf
 
 int somme(int a, int b) {
-    printf("somme(%d, %d) --> %d\n", a, b, a + b);
+    printf("somme(%d, %d) ---> %d\n", a, b, a + b);
     return a + b;
 }
 
