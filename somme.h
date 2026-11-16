@@ -2,11 +2,10 @@
 #ifndef __SOMME_H__
 #define __SOMME_H__
 
-struct sResultat {
-    int resultat;
-    int OK;
-};
+typedef struct sResultat* tResultat;
 
 extern int somme(int, int);
+
+extern tResultat creeUnTruc();
 
 #endif

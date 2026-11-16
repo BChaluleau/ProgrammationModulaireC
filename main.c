@@ -14,6 +14,9 @@ int main(void) {
 
     serie(3);
 
+    // tResultat t = creeUnTruc();
+    // t.resultat = 12; // impossible
+
     printf("fin...\n");
     return 0;
 }
