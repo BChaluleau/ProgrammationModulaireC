@@ -1,3 +1,9 @@
 // fichier header
 
-extern int somme(int, int);
+struct sResultat {
+    int resultat;
+    int OK;
+};
+
+extern int
+somme(int, int);
