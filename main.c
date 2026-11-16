@@ -1,5 +1,7 @@
 #include <stdio.h>  // printf
 
+extern int somme(int, int);
+
 int main(void) {
     printf("Dans le main...\n");
     int x = 2;
